@@ -1,0 +1,86 @@
+body{
+	font-size: 16px;
+	background: #F55452;
+	font-family: 'Oxygen', sans-serif, 'Roboto';
+}
+
+/* Header section */
+#header-nav{
+border-radius: 0;
+border: 0;
+background-color: #FD8126; 
+}
+
+
+.navbar-brand {
+  text-align: center;
+}
+.navbar-brand h1 {
+  /*font-family: 'Lora', serif;*/
+  font-size: 1.5em;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
+  text-shadow: 1px 1px 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+  background: #FCFC5A;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/*Header Navigation Bar ends*/
+
+/*Main Content */
+#main-content h1{
+	text-align: center;
+	background: #FCFC5A;
+}
+
+.content{
+	width: 100%;
+	height: 1000px;
+	box-sizing: border-box;
+	text-align: center; 
+	border: 1px solid black;
+	padding: 2px;
+	background: #7CFE64;
+}
+
+.row{
+	margin-top: 5px;
+}
+/*Main Content Ends*/
+
+/*For mobile View*/
+@media (max-width: 762px){
+	.navbar-brand h1{
+		font-size: 1.5em;
+	}
+
+	#main-content h1{
+		font-size: 1.5em;
+	}
+}
